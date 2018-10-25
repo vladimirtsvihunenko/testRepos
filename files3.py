@@ -26,7 +26,7 @@ def readFile(path):
 	y = y/(len(d)-1)
 	z = z/(len(d)-1)
 	return d
-
+#test2Commit
 def writeFile(path,d):
 	with open(path,"w") as inf:
 		for i in d:
